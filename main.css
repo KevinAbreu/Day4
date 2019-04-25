@@ -7,7 +7,7 @@ body{
 }
 .homepage{
   text-align: center;
-  background-image: url(https://www.metallica.com/on/demandware.static/-/Sites-Metallica-Library/default/dwb6d5ba9e/images/homepage/home-hero.jpg);
+  background-image: url("https://www.metallica.com/on/demandware.static/-/Sites-Metallica-Library/default/dwb6d5ba9e/images/homepage/home-hero.jpg");
   width: 100%;
   height: 100vh;
 }
@@ -18,13 +18,15 @@ body{
   border: 1px solid #333;
   background: rgba(69,69, 69, 0.66);
   padding: 5% 5%;
+  width: 33%;
 }
 .register-form input [type='submit']{
   background: #ff6700;
   padding: 1% 2%;
   color: #fff;
   border: 1px solid orange;
-  text-transform: ;
-  f
+  text-transform: uppercase;
+  font-weight: 600;
+
 
 }
